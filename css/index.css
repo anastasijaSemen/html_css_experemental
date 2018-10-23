@@ -116,11 +116,11 @@ font-size: 65%;
     grid-row-end: 3;
     }
 .map_of_site{
-    padding: 60px 0px 25px 40px;
+    padding-top: 100px;
     background-image: url("../images/cocktail.gif");
     background-repeat: repeat-x;
     letter-spacing: 2px;
-    margin-top: -20px;
+    margin-top: 50px;
 
 }
 article.map_of_site h4 {
