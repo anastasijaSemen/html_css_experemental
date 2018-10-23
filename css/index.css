@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+
+:root {
+    font-family: sans-serif;
+}
+.page{
+    font-size: large;
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    background-image: url("../images/dream(1).jpg");
+    background-repeat: no-repeat;
+    background-position: 500px;
+    width: 100%;
+    
+}
+div.name_of_site{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 50px 0px 0px 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 400%;
+   letter-spacing: 5px;
+}
+ nav ul li {
+    list-style-type: none;
+
+}
+ul li a{
+    text-decoration: none; 
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+li>a:link {
+    color: darkblue;
+}
+li>a:visited {
+    color: black;
+}
+li>a:hover {
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.another_page_site{
+    padding: 8px;
+    background-color: darkgray;
+    opacity: 0.5;
+}
+.main_background {
+    background-image: url("../images/background_main.jpg");
+}
+.grid_layout {
+    display: grid;
+    grid-column: 25% 25% 25% 25%;
+    grid-row: fr fr fr;
+    grid-column-gap: 5px;
+}
+.glasses {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 25px 0px 15px 10px;
+}
+.smth_about_dreams {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+}
+.detailed_description {
+    background-color: aqua;
+    text-decoration-line: line-through;
+}
+
+.main_box {
+    background-color: lightgray;
+    border: 2px dotted white;
+    border-radius: 25px;
+}
+.list_of_dreams {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 15px;
+    }
+dl {
+    line-height: 125%;
+}
+dl>dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    text-decoration-line: underline;
+}
+#joke {
+    text-decoration-line: line-through;
+}
+dl>dd {
+font-size: 65%;
+}
+.keep_calm {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    }
+.map_of_site{
+    padding: 60px 0px 25px 40px;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    letter-spacing: 2px;
+}
+article.map_of_site h4 {
+    font-weight: bold;
+    color: orangered;
+}
+.reall_dream {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/real_dream_background.png");
+    opacity: 0.8;
+   }
+
+.top {
+    border-top: 1px solid #2a9415;
+    background: #65d690;
+    background: -webkit-gradient(linear, left top, left bottom, from(#699c3e), to(#65d690));
+    background: -webkit-linear-gradient(top, #699c3e, #65d690);
+    background: -moz-linear-gradient(top, #699c3e, #65d690);
+    background: -ms-linear-gradient(top, #699c3e, #65d690);
+    background: -o-linear-gradient(top, #699c3e, #65d690);
+    padding: 10px 20px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #020321;
+    font-size: 15px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .top:hover {
+    border-top-color: #0a5903;
+    background: #0a5903;
+    color: #ccc;
+    }
+ .top:active {
+    border-top-color: #2e4525;
+    background: #2e4525;
+    }
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/follow_footer.png");
+    opacity: 0.7;
+}
+div nav a {
+    letter-spacing: 8px;
+}
+#tel {
+    text-decoration: none;
+    color: black;
+}
