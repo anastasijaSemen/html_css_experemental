@@ -1,0 +1,63 @@
+h1{
+    background-color: lightgray;
+    border: 2px dotted white;
+    border-radius: 25px;
+}
+
+.how_to_get{
+    display: flex;
+    justify-content: space-between;
+    background-image: none;
+}
+.background_image{
+    background-image: url("../images/background_main.jpg");
+}
+h2, h3 {
+    text-align: center;
+}
+p {
+    padding: 25px;
+}
+blockquote{
+    position: relative;
+    text-align: center;
+    width: 45%;
+    
+    margin: 20px;
+    padding: 20px;background-color: lightgray;
+    border: 2px dotted white;
+    border-radius: 25px;
+}
+h2 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 200px;
+}
+ol {
+    margin: 35px;
+    border: 2px  double green;
+    width: 40%;
+
+}
+.flex_box{
+    display: flex;
+    justify-content: space-around;
+}
+div:first-child{
+    width: 65%
+}
+h3{
+    width: 50%;
+    justify-content: right;
+}
+
+p.cocktails{
+    margin: 25px;
+    padding: 60px;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+}
+aside {
+    float: right;
+    margin-top: 40px;
+}
