@@ -120,6 +120,8 @@ font-size: 65%;
     background-image: url("../images/cocktail.gif");
     background-repeat: repeat-x;
     letter-spacing: 2px;
+    margin-top: -20px;
+
 }
 article.map_of_site h4 {
     font-weight: bold;
