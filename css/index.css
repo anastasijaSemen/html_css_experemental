@@ -128,21 +128,21 @@ article.map_of_site h4 {
     color: orangered;
 }
 .reall_dream {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
+    box-sizing: border-box;
+    grid-area: 3 / 1 / 4 / 5;
+    margin: 20px 0;
     background-image: url("../images/real_dream_background.png");
-    opacity: 0.8;
+    opacity: 0.5;
    }
+.box_model{
+    color:black;
+    text-align: center;
+}
+
 
 .top {
     border-top: 1px solid #2a9415;
     background: #65d690;
-    background: -webkit-gradient(linear, left top, left bottom, from(#699c3e), to(#65d690));
     background: -webkit-linear-gradient(top, #699c3e, #65d690);
     background: -moz-linear-gradient(top, #699c3e, #65d690);
     background: -ms-linear-gradient(top, #699c3e, #65d690);
